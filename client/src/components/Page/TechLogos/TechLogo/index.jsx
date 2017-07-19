@@ -4,6 +4,7 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import './style.css';
 import classNames from 'classnames'
+import * as ku from '../../../../lib/ke-utils'
 
 const TechLogo = (props) => {
   const imageStyle = classNames(
@@ -13,8 +14,10 @@ const TechLogo = (props) => {
     }
   )
 
+  ku.log('TechLogo: props.numberCols', props.numberCols, 'blue')
+
   return (
-    <Col xs={props.numberCols}>
+    <Col sm={props.numberCols} className='logo-item'>
       <Row>
         <img className={imageStyle} src={props.url} alt="logo" />
       </Row>

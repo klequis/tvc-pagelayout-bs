@@ -43,7 +43,7 @@ const TechLogos = () => {
           {basics}
         </Row>
         <Row className='center-in-col'>
-          <h3 className='logo-title'>MERN Stack</h3>
+          <h3 className='mern-title'>MERN Stack</h3>
         </Row>
         <Row className='center-in-col'>
           {mern}
