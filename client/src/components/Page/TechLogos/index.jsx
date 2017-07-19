@@ -37,13 +37,13 @@ const TechLogos = () => {
           <p>As a beginner you will get help learning the basics. When you are ready you will work on real projects for real clients gaining knowledge and valuable experience along the way.</p>
         </Row>
         <Row className='center-in-col'>
-          <h3 className='logo-title'>The Basics</h3>
+          <h2 className='logo-title'>The Basics</h2>
         </Row>
         <Row className='center-in-col'>
           {basics}
         </Row>
         <Row className='center-in-col'>
-          <h3 className='mern-title'>MERN Stack</h3>
+          <h2 className='mern-title'>MERN Stack</h2>
         </Row>
         <Row className='center-in-col'>
           {mern}
