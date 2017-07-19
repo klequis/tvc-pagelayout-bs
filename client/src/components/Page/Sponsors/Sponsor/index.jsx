@@ -1,6 +1,6 @@
 // Sponsor
 import React from 'react';
-import { Row, Col, Image } from 'react-bootstrap'
+import { Row, Image } from 'react-bootstrap'
 import './style.css';
 
 const Sponsor = (props) => (

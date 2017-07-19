@@ -6,8 +6,6 @@ import TechLogo from './TechLogo';
 import { basicsLogos, mernLogos } from './tech-logo-data'
 
 const TechLogos = () => {
-  console.log('basicsLogos', basicsLogos.length)
-  console.log('mernLogos', mernLogos.length)
   const basics = basicsLogos.map((t) => (
     <TechLogo
       key={t.name}

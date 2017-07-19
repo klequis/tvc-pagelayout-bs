@@ -10,7 +10,7 @@ const Member = (props) => {
   const getPicture = () => {
     if (!props.picture) {
       return <Identicon
-        style='member-img'
+        className='member-img'
         hash={props._id}
              />
     } else {

@@ -1,12 +1,12 @@
 // Footer
 import React from 'react'
-import { Grid } from 'react-bootstrap'
+import { Grid, Row } from 'react-bootstrap'
 import './style.css'
 
 const Footer = () => (
   <Grid id='footer' fluid className='bg-black-gradient'>
     <Grid>
-      <div className="fa-btns">
+      <Row className='center-row'>
         <a href="https://github.com/trivalleycoders-org">
           <i className="fa fa-github fa-2x" aria-hidden="true"></i>
         </a>
@@ -16,8 +16,10 @@ const Footer = () => (
         <a href="https://www.facebook.com/groups/free.code.camp.sanramon/">
           <i className="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
         </a>
-      </div>
-      <p>&copy; 2017 Tri-Valley Coders. All rights reserved.</p>
+      </Row>
+      <Row className='center-row'>
+        <p>&copy; 2017 Tri-Valley Coders. All rights reserved.</p>
+      </Row>
     </Grid>
   </Grid>
 );

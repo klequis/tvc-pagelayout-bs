@@ -1,6 +1,6 @@
 // Events
 import React from 'react';
-import { Panel, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import './style.css';
 import classNames from 'classnames'
 

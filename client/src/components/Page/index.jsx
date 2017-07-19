@@ -1,7 +1,7 @@
 // Page
 import React from 'react';
 import { Component } from 'react';
-import { Grid, Row, Col, Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import About from './About'
 import Events from './Events'
 import Footer from './Footer'
@@ -10,17 +10,8 @@ import Members from './Members'
 import Sponsors from './Sponsors'
 import TechLogos from './TechLogos'
 import './style.css';
-import iCSS from '../../images/tech-logos/css-3.01.svg'
-import iExpress from '../../images/tech-logos/express.svg'
 
 class Page extends Component {
-  // Navigation
-  // About
-  // TechLogos
-  // Events
-  // Members
-  // Sponsors
-  // Footer
   render () {
     return (
       <div>
@@ -38,7 +29,6 @@ class Page extends Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-
         <Header />
         <About />
         <TechLogos />

@@ -1,6 +1,6 @@
 // Members
 import React from 'react'
-import { Grid, Row } from 'react-bootstrap'
+import { Grid } from 'react-bootstrap'
 import './style.css'
 import Member from './Member'
 import arrMembers from './members-data'
