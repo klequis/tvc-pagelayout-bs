@@ -16,17 +16,17 @@ const basicsLogos = [
   {
     name: 'HTML 5',
     image: iHTML,
-    style: "small-image",
+    style: "image-square",
   },
   {
     name: 'CSS 3',
     image: iCSS,
-    style: "small-image",
+    style: "image-square",
   },
   {
     name: 'JavaScript',
     image: iJS,
-    style: "small-image",
+    style: "image-square",
   },
 ]
 
@@ -35,22 +35,22 @@ const mernLogos = [
   {
     name: 'MongoDB',
     image: iMongo,
-    style: 'wide-image',
+    style: 'image-wide',
   },
   {
     name: 'Express',
     image: iExpress,
-    style: 'express-image',
+    style: 'image-express',
   },
   {
     name: 'React',
     image: iReact,
-    style: "small-image",
+    style: "image-square",
   },
   {
     name: 'Node',
     image: iNode,
-    style: "small-image",
+    style: "image-square",
   },
 ]
 

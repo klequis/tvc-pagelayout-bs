@@ -1,7 +1,7 @@
 // TechLogo
 
 import React from 'react';
-import { Grid } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import './style.css';
 import classNames from 'classnames'
 
@@ -14,12 +14,15 @@ const TechLogo = (props) => {
   )
 
   return (
-    <Grid id='techlogo' fluid>
-      <Grid>
+    <Col xs={props.numberCols}>
+      <Row>
         <img className={imageStyle} src={props.url} alt="logo" />
+      </Row>
+      <Row>
         <span className='logo-text'>{props.name}</span>
-      </Grid>
-    </Grid>
+      </Row>
+    </Col>
+
   )
 }
 
